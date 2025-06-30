@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <form action="reigster.php">
+        <div>
+          <label for="fname">Firstname:</label>
+          <input type="text" id="fname" />
+        </div>
+        <br />
+        <div>
+          <label for="sname">Surname:</label>
+          <input type="text" id="sname" />
+        </div>
+        <br />
+        <div>
+          <label for="pass">Password:</label>
+          <input type="password" id="pass" />
+        </div>
+        <div>
+          <br />
+          <label for="bday">Birthday:</label>
+          <input type="date" id="bday" />
+        </div>
+        <br />
+        <div>
+          <label for="gender">Gender:</label>
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" />
+          <label for="fmale">Female</label>
+          <input type="radio" id="fmale" name="gender" />
+        </div>
+        <br />
+        <div>
+          <label for="intro">About Yourself:</label>
+          <textarea id="intro" cols="30"></textarea>
+        </div>
+        <br />
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" />
+        </div>
+        <br />
+        <div>
+          <label for="cities">City</label>
+          <select id="cities">
+            <option value="34">İstanbul</option>
+            <option value="16">Bursa</option>
+            <option value="35">İzmir</option>
+            <option value="17">Çanakkale</option></select
+          ><br />
+        </div>
+
+        <br />
+        <div>
+          <label for="mfile">Select a File:</label>
+          <input type="file" id="mfile" />
+        </div>
+        <br /><br />
+
+        <button type="submit">Sign Up</button>
+        <button type="reset">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>
